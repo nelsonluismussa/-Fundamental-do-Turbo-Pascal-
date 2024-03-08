@@ -1,1 +1,1 @@
-ot(c=d)
+writeln('Os dados pessoais');
