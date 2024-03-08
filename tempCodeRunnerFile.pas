@@ -1,1 +1,1 @@
-writeln('soma:', soma)
+subtração
