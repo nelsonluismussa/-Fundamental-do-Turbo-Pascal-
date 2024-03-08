@@ -1,1 +1,1 @@
-writeln('Os dados pessoais');
+writeln('soma:', soma)
