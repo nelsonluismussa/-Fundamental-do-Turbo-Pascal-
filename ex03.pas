@@ -16,7 +16,7 @@ begin
     
     writeln((a>b));
     writeln((c<b));
-    writeln((a<>b));
+    writeln((a<>b));  // diferente
     writeln(not(a>b)); 
 
 
