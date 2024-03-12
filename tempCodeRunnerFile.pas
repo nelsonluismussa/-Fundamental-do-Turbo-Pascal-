@@ -1,2 +1,1 @@
-    readln(nome);    
-    readln(genero);
+Delta
