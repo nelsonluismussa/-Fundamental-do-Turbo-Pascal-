@@ -1,1 +1,2 @@
-subtração
+    readln(nome);    
+    readln(genero);
