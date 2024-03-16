@@ -7,20 +7,6 @@ var
 
 
 begin
-{ 
-    writeln('--------------------------');
-    writeln('1-Soma');
-    writeln('2-Subtração');
-    writeln('3-Multiplicação');
-    writeln('4-Divisão');
-    writeln('--------------------------');
-}
-
-    {
-    soma:= a + b;
-    subt:= a - b;
-    divis:= a / b;
-    mult:=a * b;}
 
     writeln('Digite um número inteiro:');
     readln(a);
