@@ -1,0 +1,7 @@
+
+	Operadores e Expressões:  
+	Aritméticos: + / *- mod, 
+	Relacionais: = <> > < >=  <= , 
+	Lógicos : and, or, not.
+
+
