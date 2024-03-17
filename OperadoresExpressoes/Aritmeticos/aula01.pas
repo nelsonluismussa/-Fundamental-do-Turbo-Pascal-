@@ -1,14 +1,3 @@
-
-{
-    Operadores Aritméticos:
-
-    +: Adição
-    -: Subtração
-    *: Multiplicação
-    /: Divisão
-    mod: Resto da divisão inteira
-}
-
 Program OperadoresAritmeticos;
 
 var
