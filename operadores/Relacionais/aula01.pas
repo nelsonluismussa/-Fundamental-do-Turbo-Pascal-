@@ -1,31 +1,33 @@
-{
-    Operadores Aritméticos:
-    Adição: +
-    Subtração: -
-    Multiplicação: *
-    Divisão: /
-    Divisão inteira: div
-    Módulo (resto da divisão): mod
+{ 
+  Operadores Relacionais:
+
+    Igual a: =
+    Diferente de: <>
+    Maior que: >
+    Menor que: <
+    Maior ou igual a: >=
+    Menor ou igual a: <=
 }
 
 Program Operadores;
 
 var
-  a, b, soma, diferenca, produto, quociente, resto: Integer;
-
+  a, b: Integer;
+  igual, diferente, maior, menor, maior_igual, menor_igual: Boolean;
 begin
   a := 10;
-  b := 3;
-  soma := a + b;
-  diferenca := a - b;
-  produto := a * b;
-  quociente := a div b;
-  resto := a mod b;
+  b := 5;
+  igual := (a = b);
+  diferente := (a <> b);
+  maior := (a > b);
+  menor := (a < b);
+  maior_igual := (a >= b);
+  menor_igual := (a <= b);
 
-  WriteLn('Soma:', soma);
-  WriteLn('Diferenca:', diferenca);
-  WriteLn('Produto:', produto);
-  WriteLn('Quociente:', quociente);
-  WriteLn('Resto:', resto);
+  WriteLn('Igual: ', igual);
+  WriteLn('diferente: ', diferente);
+  WriteLn('maior: ', maior);
+  WriteLn('maior_igual: ', maior_igual);
+  WriteLn('menor_igual: ', menor_igual);
 
 end.
