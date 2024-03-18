@@ -1,0 +1,7 @@
+program dado;
+
+begin
+  
+ 
+
+end.

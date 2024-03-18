@@ -1,4 +1,4 @@
-program arithmetic_operations;
+ program arithmetic_operations;
 
 var
   num1, num2: Real;
