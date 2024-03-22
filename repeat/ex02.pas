@@ -12,14 +12,14 @@ var
 begin
         clrscr;
         
-        contador := 1;
+        contador := 5;
         repeat
             begin 
                 writeln(contador);
-                contador := contador + 1;
+                contador := contador - 1;
             
             End;
-        until contador >5;
+        until contador <1;
         
         writeln('Fim');
         
