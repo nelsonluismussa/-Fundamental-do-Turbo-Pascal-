@@ -1,7 +1,7 @@
 Program Calculadora;
 
 var
-   // Variaveis
+   // Variaveis 
 	a: integer;
 	b: integer;
 	soma : real;
