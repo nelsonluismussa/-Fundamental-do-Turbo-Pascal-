@@ -14,5 +14,5 @@ begin
 	area := (base * altura) / 2.0;
 	write('Area é: ', area:0:1);
 
-    readln;
+    readln; 
 End.
