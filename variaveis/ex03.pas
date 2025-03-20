@@ -6,7 +6,7 @@ var
 	b: integer;
 	soma: integer;
 	
-begin
+begin 
 	writeln('Digite valores inteiro:');
 	readln(a);
 	
