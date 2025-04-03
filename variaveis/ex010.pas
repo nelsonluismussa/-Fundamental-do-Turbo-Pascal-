@@ -1,12 +1,11 @@
 Program calculador;
 
 var 
-	 
-	 
     a, b: real;
     soma, subtracao:real;
 	opcoes: Integer;
 	nota1, nota2, media: real;
+	
 Begin
 	
 	Writeln('1->Soma');
@@ -39,9 +38,7 @@ Begin
 				Writeln('Rep com media:',media:0:1)
 			 else 
 			   Writeln('Ad. comA Media é:', media:0:1);
-		end;
-		
-	
+		end; 
 		
 	else
 		Writeln('error do sistema somente valor [1..4]');
