@@ -1,0 +1,51 @@
+Program dados;
+
+var
+	nota1, nota2, mediaFinal: Real;
+	
+PROCEDURE msg;
+begin
+	Writeln('|----------------------|');
+	Writeln('|   SISTEMA PRINCIPAL  |');
+	Writeln('|----------------------|');
+end;
+
+PROCEDURE telas;
+begin
+	Writeln('|----------------------|');
+	Writeln('|   PROCESSANDO......  |');
+	Writeln('|----------------------|');
+end;
+
+PROCEDURE cadastro;
+
+begin
+     Writeln('Nota 1:');
+     readln(nota1);
+     
+     Writeln('Nota 2:');
+     readln(nota2);
+
+end;
+
+Function calculadoraMedias(n1, n2: real):real;
+begin
+      calculadoraMedias := (n1 + n2) / 2.0;
+
+end;
+
+
+begin
+     msg;
+     cadastro;
+     mediaFinal := calculadoraMedias(nota1, nota2);
+     if (mediaFinal <= 7) then
+		 Writeln('Excluído') 
+	 else if ((mediaFinal >= 8) and (mediaFinal <=15)) then
+		 Writeln('Aprovado')
+	 else
+		 writeln('Despensado');
+		 
+     Writeln('Media é:', mediaFinal:0:1);
+     telas;
+end.
